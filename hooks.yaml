@@ -19,3 +19,10 @@
     language: system
     files: \.rs$
     pass_filenames: false
+-   id: test
+    name: test
+    description: Runs cargo test
+    entry: cargo test --
+    language: system
+    files: \.rs$
+    args: []
